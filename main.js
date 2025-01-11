@@ -7,5 +7,14 @@ let scontoOver = 0.40
 let prezzoBiglietto
 
 //fase di elaborazione
+if( eta > 18 ){
+    prezzoBiglietto = (prezzoBigliettoKm * km) * scontoMinorenni
+}
+if ( eta > 65) {
+    prezzoBiglietto = (prezzoBigliettoKm * km) * scontoOver
+}
+else {
+    (prezzoBigliettoKm * km)
+}
 
 //fase di output
